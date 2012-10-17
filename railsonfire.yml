@@ -1,0 +1,13 @@
+id: 5357e640-fa68-012f-0a11-123138133d9c
+setup:
+  commands:
+  - echo TEST
+test:
+  commands:
+  - echo TESTAGAIN
+deploy:
+  branch: master
+  commands:
+  -  git remote add cc ssh://railsonfire@cloudcontrolled.com/repository.git
+ruby_versions:
+- 1.9.3
